@@ -1,0 +1,13 @@
+body{
+  background-color: #1F1F2F;
+  color: whitesmoke;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  flex-direction: column;
+}

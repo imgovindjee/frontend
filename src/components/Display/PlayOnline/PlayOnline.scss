@@ -1,0 +1,21 @@
+.main-container {
+    
+    .playOnline {
+        background-color: #E4CA56;
+        color: black;
+        font-size: 50px;
+        border-radius: 9px;
+        outline: none;
+        font-weight: 600;
+        margin-top: 41vh;
+        padding: 6px 10px;
+        border: none;
+
+        &:hover{
+            border-radius: 0;
+            cursor: pointer;
+        }
+
+        transition: all .3s ease-in;
+    }
+}
