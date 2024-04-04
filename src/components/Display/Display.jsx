@@ -17,7 +17,7 @@ const squareRender = [
     [4, 5, 6],
     [7, 8, 9]
 ]
-
+const BASE_URL = "https://backend-w8a1.onrender.com"
 
 
 const Display = () => {
@@ -139,7 +139,8 @@ const Display = () => {
         const Username = result.value;
         setPlayerName(Username);
 
-        const newSocket = io("http://localhost:3500", {
+        // const newSocket = io("http://localhost:3500", {
+        const newSocket = io(BASE_URL, {
             autoConnect: true
         });
         newSocket?.emit(
